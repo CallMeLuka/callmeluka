@@ -1,0 +1,77 @@
+*{
+    margin: 0;padding: 0;
+}
+/* 顶部导航栏 */
+.top{
+    width: 1920px;
+    height: 70px;
+    background: #ffffff;
+    position:fixed;
+    top: 0px;left: 0px;  
+    box-shadow: 0 3px 4px rgba(0,0,0,0.1);
+}
+
+header div ul li,#logo{
+    float: left;
+    list-style: none;
+    margin-right: 8%;
+}
+
+header div ul {
+    width: 700px;
+    position: absolute;
+    top: 24.5px;left: 960px;
+}
+
+
+header div ul li a{
+    text-decoration: none !important;
+    color: #333333
+}
+header div ul li a:hover{
+    color: #2f82ff
+}
+#nav_3{
+    /* 单独标签权值提升 */
+    color: #2f82ff
+}
+
+
+#logo{
+    position: absolute;
+    top: 17.5px;left: 260px;
+}
+
+
+.top{
+    z-index:100
+}
+header:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+/* banner */
+.banner{
+    width: 100%;
+    position: fixed;
+    top: 70px;left: 0;
+}
+
+/* Case_analysis */
+.big_Case_analysis{
+    width: 1920px;
+    height: 2200px;
+    background: #ffffff;
+    position: absolute;
+    top:770px
+
+}
+.Case_analysis{
+    width: 1800px;
+    height: 1000px;
+    background: #2f82ff;
+    margin: 0 auto;
+    display: flex;
+}
